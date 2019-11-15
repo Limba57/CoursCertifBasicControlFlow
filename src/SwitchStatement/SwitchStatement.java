@@ -33,6 +33,8 @@ public class SwitchStatement {
         int c = random.nextInt(26) + 'a';// adding offset to produce lower case letters
         System.out.println((char) c + ", " + c + ": ");
 
+        int _4_;
+
         switch (c) {
             case 'a':
             case 'e':
